@@ -22,25 +22,31 @@ git clone https://github.com/seu-usuario/chatbot-virtual.git
 cd chatbot-virtual
 ```
 
-### 2. Criar um ambiente virtual
+### 2. Criar o ambiente virtual com Poetry
 
-Recomenda-se usar um ambiente virtual para instalar as dependências do projeto:
-
-```bash
-python -m venv venv
-source venv/bin/activate  # Para Linux/macOS
-venv\Scripts\activate  # Para Windows
-```
-
-### 3. Instalar as dependências
-
-Instale as dependências do projeto utilizando o `pip`:
+Recomenda-se usar o **Poetry** para gerenciar as dependências e o ambiente virtual:
 
 ```bash
-pip install -r requirements.txt
+poetry install
 ```
 
-### 4. Configurar as variáveis de ambiente
+### 3. Ativar o ambiente virtual
+
+Para ativar o ambiente virtual criado pelo Poetry, execute:
+
+```bash
+poetry shell
+```
+
+### 4. Instalar as dependências
+
+As dependências do projeto serão instaladas automaticamente durante o comando `poetry install`, mas você também pode instalar manualmente com:
+
+```bash
+poetry add <nome_da_dependência>
+```
+
+### 5. Configurar as variáveis de ambiente
 
 Crie um arquivo `.env` na raiz do projeto e adicione suas chaves de API para o Hugging Face (Hugging Face API Key) ou outros serviços que você deseja utilizar:
 
@@ -48,7 +54,7 @@ Crie um arquivo `.env` na raiz do projeto e adicione suas chaves de API para o H
 HUGGINGFACE_API_KEY=your_huggingface_api_key
 ```
 
-### 5. Executar o aplicativo
+### 6. Executar o aplicativo
 
 Execute o aplicativo Streamlit com o comando abaixo:
 
@@ -80,17 +86,10 @@ Você pode facilmente modificar o tipo de modelo de IA a ser utilizado no arquiv
 - `"ollama"`: Para usar o modelo Ollama.
 - `"openai"`: Para usar o modelo da OpenAI.
 
-
-
-### Exemplo da interface do chatbot:
-
-
-## Licença
-
-Este projeto é de código aberto, licenciado sob a licença MIT
-
 ## Contribuições
 
 Sinta-se à vontade para fazer contribuições! Se você tiver alguma sugestão ou correção, envie um pull request ou abra um issue.
 
 ---
+
+Obrigado por usar o chatbot virtual! 🤖💬
