@@ -86,6 +86,9 @@ Você pode facilmente modificar o tipo de modelo de IA a ser utilizado no arquiv
 - `"ollama"`: Para usar o modelo Ollama.
 - `"openai"`: Para usar o modelo da OpenAI.
 
+## Imagens
+(https://github.com/usuario/repositorio/blob/main/assets/logo.png)
+
 ## Contribuições
 
 Sinta-se à vontade para fazer contribuições! Se você tiver alguma sugestão ou correção, envie um pull request ou abra um issue.
