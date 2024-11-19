@@ -87,12 +87,8 @@ Você pode facilmente modificar o tipo de modelo de IA a ser utilizado no arquiv
 - `"openai"`: Para usar o modelo da OpenAI.
 
 ## Imagens
-[](https://github.com/PegouOcodigoDev/Chatbot-com-memoria/blob/main/Seu%20assistente%20virtual.pdf)
+[Seu assistente virtual PDF](https://github.com/PegouOcodigoDev/Chatbot-com-memoria/blob/main/Seu%20assistente%20virtual.pdf)
 
 ## Contribuições
 
 Sinta-se à vontade para fazer contribuições! Se você tiver alguma sugestão ou correção, envie um pull request ou abra um issue.
-
----
-
-Obrigado por usar o chatbot virtual! 🤖💬
