@@ -86,7 +86,7 @@ Você pode facilmente modificar o tipo de modelo de IA a ser utilizado no arquiv
 - `"ollama"`: Para usar o modelo Ollama.
 - `"openai"`: Para usar o modelo da OpenAI.
 
-## Imagens
+## Exemplo Funcional
 [Seu assistente virtual PDF](https://github.com/PegouOcodigoDev/Chatbot-com-memoria/blob/main/Seu%20assistente%20virtual.pdf)
 
 ## Contribuições
