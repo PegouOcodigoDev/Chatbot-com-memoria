@@ -32,6 +32,6 @@ if query:
         for chunk in response:
             full_response += chunk
             message_placeholder.markdown(full_response)
-            time.sleep(0.03) 
+            time.sleep(0.5) 
 
-    st.session_state.history.append(AIMessage(content=response))
+    st.session_state.history.append(AIMessage(content=full_response))
