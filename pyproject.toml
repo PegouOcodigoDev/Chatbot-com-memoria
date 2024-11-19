@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "class-llm"
+version = "1"
+description = "course about llm"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain-huggingface = "^0.1.2"
+langchain = "^0.3.7"
+langchain-community = "^0.3.7"
+python-dotenv = "^1.0.1"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+torchaudio = "^2.5.1"
+transformers = "^4.46.2"
+einops = "^0.8.0"
+accelerate = "^1.1.1"
+bitsandbytes = "^0.44.1"
+langchain-ollama = "^0.2.0"
+langchain-openai = "^0.2.8"
+streamlit = "^1.40.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
